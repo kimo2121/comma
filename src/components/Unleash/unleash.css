@@ -1,0 +1,47 @@
+.unleash {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.unleash-left h1 {
+  font-size: 60px;
+}
+.unleash-left {
+  text-align: left;
+  margin: 0 20px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+.unleash-left button {
+  background-color: #4753d6;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+}
+.span-fire {
+  display: flex;
+  color: #4753d6;
+  align-items: center;
+}
+.span-fire img {
+  object-fit: cover;
+}
+.span-fire img {
+  margin-right: 1vw;
+}
+.unleash-left span {
+  margin: 1vh 0;
+  color: #7e7b92;
+  display: block;
+}
+@media screen and (max-width: 1200px) {
+  .unleash {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mask-man {
+    width: 90%;
+  }
+}
