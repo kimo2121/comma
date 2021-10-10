@@ -7,8 +7,14 @@
   width: 610px;
   text-align: left;
 }
+.distracted-intro h1 {
+  font-size: 48px;
+}
 .distracted-intro p {
   color: #7e7b92;
+}
+.distracted-frame {
+  margin-right: 20px;
 }
 .distracted-intro-frame {
   position: absolute;
@@ -38,6 +44,9 @@
   }
   .distracted-intro div {
     width: 90%;
+  }
+  .distracted-frame {
+    margin-right: 0;
   }
 }
 @media screen and (max-width: 600px) {

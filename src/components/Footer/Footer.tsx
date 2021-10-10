@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
   return (
     <div className="footer">
       <div className="footer-zero">
-        <h2>Logo</h2>
+        <h3>Logo</h3>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
           unde enim commodi deserunt! Doloribus voluptatem sit quisquam nemo.
@@ -29,14 +29,14 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="footer-second">
-        <h2>About Us</h2>
+        <h3>About Us</h3>
         <p>Support Center</p>
         <p>About Us</p>
         <p>Copyright</p>
         <p>Popular Campaign</p>
       </div>
       <div className="footer-third">
-        <h2>Our Information</h2>
+        <h3>Our Information</h3>
         <p>Return Policy</p>
         <p>Privacy Policy</p>
         <p>Terms & Conditions</p>
@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
         <p>Store Hours</p>
       </div>
       <div className="footer-forth">
-        <h2>Policy</h2>
+        <h3>Policy</h3>
         <p>Application security</p>
         <p>Softwre principles</p>
         <p>Unwanted software</p>

@@ -5,6 +5,7 @@ import member2 from "../../assets/member2.png";
 import member3 from "../../assets/member3.png";
 
 import EachMembmer from "./EachMembmer";
+import Header from "../Header/Header";
 
 interface teamMembers {
   members: {
@@ -44,7 +45,7 @@ const data2: teamMembers["members"] = [
 const Team: React.FC = () => {
   return (
     <div className="team">
-      <h1>Meet Our Team Members</h1>
+      <Header text="Meet Our Team Members" />
       <p>
         There are many variations of passages of Lorem Ipsum available, but the
         <br />

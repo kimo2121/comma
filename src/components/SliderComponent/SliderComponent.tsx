@@ -8,6 +8,7 @@ import second from "../../assets/second.png";
 import third from "../../assets/third.png";
 import fourth from "../../assets/fourth.png";
 import fifth from "../../assets/fifth.png";
+import Header from "../Header/Header";
 
 const data1: Array<string> = [
   first,
@@ -75,7 +76,7 @@ const SliderComponent: React.FC = () => {
   return (
     <div className="slider-component">
       <div className="slider-container">
-        <h1>Established fact that</h1>
+        <Header text="Established fact that" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quis
         </p>

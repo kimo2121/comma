@@ -1,10 +1,11 @@
 import React from "react";
 import "./roadmap.css";
 import roadmap from "../../assets/roadmap.png";
+import Header from "../Header/Header";
 const RoadMap: React.FC = () => {
   return (
     <div id="RoadMap" className="road-map">
-      <h1>Roadmap</h1>
+      <Header text="Roadmap" />
       <p>
         There are many variations of passages of Lorem Ipsum available,
         <br /> but the majority have suffered alteration in some form

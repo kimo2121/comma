@@ -7,7 +7,7 @@ const DistractedIntro: React.FC = () => {
   return (
     <div className="distracted-intro">
       <img className="distracted-intro-frame" src={intro} alt="" />
-      <img src={introFrame} alt="" />
+      <img className="distracted-frame" src={introFrame} alt="" />
       <div>
         <h1>
           Established Fact that a <br /> reader will be distracted
